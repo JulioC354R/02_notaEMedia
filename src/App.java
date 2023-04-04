@@ -17,6 +17,7 @@ double NotaTotal;
     nota2 = teclado.nextDouble();
     nota3 = teclado.nextDouble();
     nota4 = teclado.nextDouble();
+    teclado.close();
     
 media = (nota1 + nota2 + nota3 + nota4) / 4;
 NotaTotal = (nota1 + nota2 + nota3 + nota4);
